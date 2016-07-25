@@ -31,8 +31,14 @@ html, body { height: 100%; overflow: hidden; }
 
 #container, .section { height: 100%; position: relative; }
 
-#section0 { background-size: cover;background-position: 50% 50%;background-color: #258c95; color: #fff;text-shadow:1px 1px 1px #333;  }
-
+#section0 {
+		position: relative;
+			background-size: cover;
+			background-position: 50% 50%;
+			color: #fff;
+			text-shadow:1px 1px 1px #333;
+			background:#258c95;
+		}	
 .avatar { position: absolute; left: 30%; top: 15%; width: 210px; height: 210px; border-radius: 50%; background-image: url(../images/icon_zl.png); background-size: cover; background-repeat: no-repeat; border: 10px solid #aaa; cursor: pointer; }
 .avatar:hover { border: 10px solid #D6D6D6; box-shadow: 0 0 10px #D6D6D6; }
 
@@ -45,7 +51,14 @@ html, body { height: 100%; overflow: hidden; }
 .des p { font-size: 1.5em; font-family: 'Shadows Into Light',cursive,arial, sans-serif; line-height: 1.8em; color: #fff; }
 .des p span { font-size: 1.1em; color: burlywood; }
 
-#section1 {background-size: cover;background-position: 50% 50%;background-color: #FFCC00; color: #fff;text-shadow:1px 1px 1px #333; }
+#section0 {
+		position: relative;
+			background-size: cover;
+			background-position: 50% 50%;
+			color: #fff;
+			text-shadow:1px 1px 1px #333;
+			background:#FFCC00;
+}	
 #section1 h1 { position: absolute; top: 4%; left: 50%; transform: translateX(-50%); font-size: 4em; line-height: 3em; }
 
 .skill { width: 100%; position: absolute; top: 32%; left: 50%; transform: translateX(-50%); text-align: center; }
