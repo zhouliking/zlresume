@@ -1,0 +1,53 @@
+@charset "UTF-8";
+html, body, h1, h2, h3, h4, h5, h6, div, dl, dt, dd, ul, ol, li, p { margin: 0; padding: 0; }
+
+header, footer, section, article, nav { display: block; }
+
+html, body, fieldset, img, iframe, abbr { border: 0; }
+
+li { list-style: none; }
+
+code { font-family: inherit; }
+
+a, button { cursor: pointer; }
+
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+
+body { font: 16px/1.14 "Microsoft YaHei","Hiragino Sans GB",sans-serif; color: #333; outline: 0; background: #fff; }
+
+a, a:hover { text-decoration: none; color: #333; }
+
+h1 { font-size: 2.4em; font-weight: bold; color: #FFF; }
+
+h2 { font-size: 1.6em; }
+
+h3 { font-size: 1.4em; }
+
+h4 { font-size: 1.2em; }
+
+h5 { font-size: 1em; }
+
+html, body { height: 100%; overflow: hidden; }
+
+#container, .section { height: 100%; position: relative; }
+
+#section0 { background-color: #258c95; position: relative; min-width: 1280px; min-height: 660px; }
+
+.avatar { position: absolute; left: 30%; top: 15%; width: 210px; height: 210px; border-radius: 50%; background-image: url(../images/icon_zl.png); background-size: cover; background-repeat: no-repeat; border: 10px solid #aaa; cursor: pointer; }
+.avatar:hover { border: 10px solid #D6D6D6; box-shadow: 0 0 10px #D6D6D6; }
+
+.info { position: absolute; left: 50%; top: 18%; width: 400px; }
+.info h1 { font-size: 3em; margin-bottom: 20px; text-shadow: 4px 4px 4px #aaa; }
+.info p { font-size: 1.4em; line-height: 2em; color: #fff; }
+.info p span { font-family: 'Shadows Into Light',cursive,arial, sans-serif; }
+
+.des { position: absolute; top: 55%; width: 100%; text-align: center; }
+.des p { font-size: 1.5em; font-family: 'Shadows Into Light',cursive,arial, sans-serif; line-height: 1.8em; color: #fff; }
+.des p span { font-size: 1.1em; color: burlywood; }
+
+#section1 { background-color: #87509c; position: relative; min-width: 1280px; min-height: 660px; }
+#section1 h1 { position: absolute; top: 4%; left: 50%; transform: translateX(-50%); font-size: 4em; line-height: 3em; }
+
+.skill { width: 100%; position: absolute; top: 32%; left: 50%; transform: translateX(-50%); text-align: center; }
+.skill .skill-top { margin-bottom: 5%; }
+.skill .circle { display: inline-block; margin: 0 30px; }
