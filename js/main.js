@@ -13,9 +13,7 @@ $(function(){
 	
 	var circles = [];
 	
-	
-	
-/*	for (var i = 1; i <= 8; i++) {
+    for (var i = 1; i <= 8; i++) {
 		var child = document.getElementById('circles-' + i),
 			
 		circles.push(Circles.create({
@@ -23,10 +21,10 @@ $(function(){
 			value:		percentage[i - 1],
 			radius:     60,
 			width:      12,
-			text:       '%',
+		
 			colors:     colors[i - 1]
 		}));
 	}
-	*/	
+
 });
 
