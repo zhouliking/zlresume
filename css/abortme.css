@@ -32,13 +32,13 @@ html, body { height: 100%; overflow: hidden; }
 #container, .section { height: 100%; position: relative; }
 
 #section0 {
-		position: relative;
-			background-size: cover;
-			background-position: 50% 50%;
-			color: #fff;
-			text-shadow:1px 1px 1px #333;
-			background:#258c95;
-		}	
+	position: relative;
+	background-size: cover;
+	background-position: 50% 50%;
+	color: #fff;
+	text-shadow:1px 1px 1px #333;
+	background:#00FFCC;
+}
 .avatar { position: absolute; left: 30%; top: 15%; width: 210px; height: 210px; border-radius: 50%; background-image: url(../images/icon_zl.png); background-size: cover; background-repeat: no-repeat; border: 10px solid #aaa; cursor: pointer; }
 .avatar:hover { border: 10px solid #D6D6D6; box-shadow: 0 0 10px #D6D6D6; }
 
@@ -51,13 +51,13 @@ html, body { height: 100%; overflow: hidden; }
 .des p { font-size: 1.5em; font-family: 'Shadows Into Light',cursive,arial, sans-serif; line-height: 1.8em; color: #fff; }
 .des p span { font-size: 1.1em; color: burlywood; }
 
-#section0 {
-		position: relative;
-			background-size: cover;
-			background-position: 50% 50%;
-			color: #fff;
-			text-shadow:1px 1px 1px #333;
-			background:#FFCC00;
+#section1{
+	position: relative;
+	background-size: cover;
+	background-position: 50% 50%;
+	color: #fff;
+	text-shadow:1px 1px 1px #333;
+	background:#E93EFF;
 }	
 #section1 h1 { position: absolute; top: 4%; left: 50%; transform: translateX(-50%); font-size: 4em; line-height: 3em; }
 
@@ -66,23 +66,23 @@ html, body { height: 100%; overflow: hidden; }
 .skill .circle { display: inline-block; margin: 0 30px; }
 
 .left{float: left;}
-		#pages{
-			position:fixed;
-			right: 10px;
-			top: 50%;
-			list-style: none;
-		}
-		#pages li{
-			width: 8px;
-			height: 8px;
-			border-radius: 50%;
-			background: #fff;
-			margin: 0 0 10px 5px;
-		}
-		#pages li.active{
-			width: 14px;
-			height: 14px;
-			border: 2px solid #FFFE00;
-			background: none;
-			margin-left: 0;
-		}
+#pages{
+	position:fixed;
+	right: 10px;
+	top: 50%;
+	list-style: none;
+}
+#pages li{
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: #fff;
+	margin: 0 0 10px 5px;
+}
+#pages li.active{
+	width: 14px;
+	height: 14px;
+	border: 2px solid #FFFE00;
+	background: none;
+	margin-left: 0;
+}
