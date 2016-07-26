@@ -21,8 +21,8 @@ $(function(){
 			id:         child.id,
 			value:		percentage[i - 1],
 			radius:     60,
-			width:      10,
-			text:       '%',
+			width:      12,
+			text:       percentage[i - 1]+'%',
 			colors:     colors[i - 1]
 		}));
 	}
