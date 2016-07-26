@@ -14,6 +14,7 @@ $(function(){
 	var circles = [];
 	
 	
+	
 	for (var i = 1; i <= 8; i++) {
 		var child = document.getElementById('circles-' + i),
 			
