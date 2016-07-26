@@ -22,7 +22,7 @@ $(function(){
 			value:		percentage[i - 1],
 			radius:     60,
 			width:      12,
-			text:       percentage[i - 1]+'%',
+			text:       '%',
 			colors:     colors[i - 1]
 		}));
 	}
