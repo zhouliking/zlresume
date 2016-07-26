@@ -65,8 +65,6 @@ html, body { height: 100%; overflow: hidden; }
 .skill .skill-top { margin-bottom: 5%; }
 .skill .circle { display: inline-block; margin: 0 30px; }
 
-
-
 .left{float: left;}
 #pages{
 	position:fixed;
