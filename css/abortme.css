@@ -37,7 +37,7 @@ html, body { height: 100%; overflow: hidden; }
 	background-position: 50% 50%;
 	color: #fff;
 	text-shadow:1px 1px 1px #333;
-	background:#00FFCC;
+	background:#009FCC;
 }
 .avatar { position: absolute; left: 30%; top: 15%; width: 210px; height: 210px; border-radius: 50%; background-image: url(../images/icon_zl.png); background-size: cover; background-repeat: no-repeat; border: 10px solid #aaa; cursor: pointer; }
 .avatar:hover { border: 10px solid #D6D6D6; box-shadow: 0 0 10px #D6D6D6; }
@@ -57,7 +57,7 @@ html, body { height: 100%; overflow: hidden; }
 	background-position: 50% 50%;
 	color: #fff;
 	text-shadow:1px 1px 1px #333;
-	background:#E93EFF;
+	background:#9900FF;
 }	
 #section1 h1 { position: absolute; top: 4%; left: 50%; transform: translateX(-50%); font-size: 4em; line-height: 3em; }
 
