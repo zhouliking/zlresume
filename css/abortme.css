@@ -59,9 +59,9 @@ html, body { height: 100%; overflow: hidden; }
 	text-shadow:1px 1px 1px #333;
 	background:#9900FF;
 }	
-#section1 h1 { position: absolute; top: 4%; left: 50%; transform: translateX(-50%); font-size: 4em; line-height: 3em; }
+#section1 h1 { position: absolute; top: 0%; left: 50%; transform: translateX(-50%); font-size: 3em; line-height: 3em; }
 
-.skill { width: 100%; position: absolute; top: 45%; left: 50%; transform: translateX(-50%); text-align: center; }
+.skill { width: 100%; position: absolute; top: 20%; left: 50%; transform: translateX(-50%); text-align: center; }
 .skill .skill-top { margin-bottom: 5%; }
 .skill .circle { display: inline-block; margin: 0 30px; }
 
