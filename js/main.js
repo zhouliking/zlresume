@@ -14,19 +14,19 @@ $(function(){
 	var circles = [];
 	
 	
-	/*for (var i = 1; i <= 8; i++) {
+	for (var i = 1; i <= 8; i++) {
 		var child = document.getElementById('circles-' + i),
 			//percentage = 31.42 + (i * 9.84);
 
 		circles.push(Circles.create({
 			id:         child.id,
-			value:		percentage[i-1],
+			value:		percentage[i - 1],
 			radius:     60,
 			width:      12,
 			text:       '%',
 			colors:     colors[i - 1]
 		}));
 	}
-	*/	
+		
 });
 
