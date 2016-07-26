@@ -18,11 +18,12 @@ $(function(){
 			
 		circles.push(Circles.create({
 			id:         child.id,
-			value:		percentage[i - 1],
+			value:		80,
 			radius:     60,
 			width:      12,		
 			colors:     colors[i - 1]
 		}));
+		
 	}
 
 });
