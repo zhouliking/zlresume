@@ -15,7 +15,7 @@ $(function(){
 	
 	
 	
-	for (var i = 1; i <= 8; i++) {
+/*	for (var i = 1; i <= 8; i++) {
 		var child = document.getElementById('circles-' + i),
 			
 		circles.push(Circles.create({
@@ -27,6 +27,6 @@ $(function(){
 			colors:     colors[i - 1]
 		}));
 	}
-		
+	*/	
 });
 
