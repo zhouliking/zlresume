@@ -29,7 +29,8 @@ $(function(){
 	  })); 
 	  
 	}*/
-	for (var i = 1; i <= 5; i++) {
+	
+	for (var i = 1; i <= 8; i++) {
 		var child = document.getElementById('circles-' + i),
 			percentage = 31.42 + (i * 9.84);
 
@@ -38,6 +39,7 @@ $(function(){
 			value:		percentage,
 			radius:     60,
 			width:      10,
+			text:       '%',
 			colors:     colors[i - 1]
 		}));
 	}
