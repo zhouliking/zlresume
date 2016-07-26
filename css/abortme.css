@@ -65,6 +65,8 @@ html, body { height: 100%; overflow: hidden; }
 .skill .skill-top { margin-bottom: 5%; }
 .skill .circle { display: inline-block; margin: 0 30px; }
 
+
+
 .left{float: left;}
 #pages{
 	position:fixed;
@@ -85,4 +87,56 @@ html, body { height: 100%; overflow: hidden; }
 	border: 2px solid #FFFE00;
 	background: none;
 	margin-left: 0;
+}
+#section0 .title{
+			-webkit-transform: translateX(-100%);
+			transform: translateX(-100%);
+			-webkit-animation: sectitle0 1s ease-in-out 100ms forwards;
+			animation: sectitle0 1s ease-in-out 100ms forwards;
+}
+#section0 p{
+	-webkit-transform: translateX(100%);
+	transform: translateX(100%);
+	-webkit-animation: sec0 1s ease-in-out 100ms forwards;
+	animation: sec0 1s ease-in-out 100ms forwards;
+}
+@-webkit-keyframes sectitle0{
+	0%{
+		-webkit-transform: translateX(-100%);
+		transform: translateX(-100%);
+	}
+	100%{
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+}
+@keyframes sectitle0{
+	0%{
+		-webkit-transform: translateX(-100%);
+		transform: translateX(-100%);
+	}
+	100%{
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+}
+@-webkit-keyframes sec0{
+	0%{
+		-webkit-transform: translateX(100%);
+		transform: translateX(100%);
+	}
+	100%{
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+}
+@keyframes sec0{
+	0%{
+		-webkit-transform: translateX(100%);
+		transform: translateX(100%);
+	}
+	100%{
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
 }
