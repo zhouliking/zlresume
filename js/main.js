@@ -45,8 +45,8 @@ $(function(){
  //Hobby
  require.config({
      paths:{ 
-         'echarts' : '/lib/echarts',
-         'echarts/chart/pie' : '/lib/echarts'
+         'echarts' : 'lib/echarts',
+         'echarts/chart/pie' : 'lib/echarts'
      }
  }); 
   // 使用
