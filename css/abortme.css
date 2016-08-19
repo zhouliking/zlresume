@@ -146,3 +146,4 @@ html, body { height: 100%; overflow: hidden; }
 	text-shadow:1px 1px 1px #333;
 	background:#28ff28;
 }
+#section2 h1 { position: absolute; top: 0%; left: 50%; transform: translateX(-50%); font-size: 3em; line-height: 3em; }
