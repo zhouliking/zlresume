@@ -138,3 +138,11 @@ html, body { height: 100%; overflow: hidden; }
 		transform: translateX(0);
 	}
 }
+#section2{
+	position: relative;
+	background-size: cover;
+	background-position: 50% 50%;
+	color: #fff;
+	text-shadow:1px 1px 1px #333;
+	background:#28ff28;
+}
