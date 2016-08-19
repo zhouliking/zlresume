@@ -9,7 +9,7 @@ $(function(){
 	var colors = [['#D3B6C6', '#4B253A'],['#dfe8ed', '#30bae7'], ['#FCE6A4', '#EFB917'],['#dfe8ed', '#d74680'], ['#dfe8ed', '#15c7a8'], ['#dfe8ed', '#eb7d4b'],
 				['#dfe8ed', '#FF00FF'], ['#dfe8ed', 'purple'], ['#dfe8ed', '#00F5FF'], ['#BEE3F7', '#45AEEA'],['#F8F9B6', '#D2D558']];                                                           
 	
-	var percentage = [60,70,60,60,40,30,30,60];
+	var percentage = [60,70,60,60,50,60,40,40];
 	
 	var circles = [];
 	
